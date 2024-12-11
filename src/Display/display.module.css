@@ -1,0 +1,23 @@
+.displayContainer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; 
+}
+
+.bottomBox{
+  display: flex; 
+  margin-top: 10px;
+}
+
+.questionBox{
+  padding: 10px;
+  border-radius: 5px;
+  flex: 1;
+  background-color : black;
+  color: var(--text-clr);
+  height: 200%;
+  margin : 10px;
+  overflow-y: auto;
+  resize: none;
+}
+

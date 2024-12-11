@@ -1,0 +1,12 @@
+.notes{
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    background-color : black;
+    color: var(--text-clr);
+    height: 200%;
+    margin : 10px;
+    overflow-y: auto;
+    resize: none;
+}
+

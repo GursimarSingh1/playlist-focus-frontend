@@ -1,0 +1,105 @@
+.sidebar {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 200px;
+  padding: 5px 1em;
+  background-color: var(--base-clr);
+  border-right: 0.1px solid var(--line-clr);
+  position: sticky;
+  top: 0;
+  align-self: start;
+  transition: 300ms ease-in-out;
+  overflow: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: black white;
+}
+
+.sidebarClose {
+  padding: 5px;
+  width: 65px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.toggleBtn {
+  border-radius: 0.5em;
+  padding: 0.85em;
+  text-decoration: none;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: white;
+}
+
+.toggleBtn span {
+  text-align: left; 
+  flex-grow: 1; 
+  word-wrap: break-word; 
+}
+
+
+.dropdownBtn1 {
+  border-radius: 0.5em;
+  padding: 0.85em;
+  text-decoration: none;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdownBtn1 span {
+  white-space: normal; 
+  word-wrap: break-word; 
+}
+
+.svg {
+  transition: 200ms ease;
+  flex-shrink: 0; 
+}
+
+.svgRotate {
+  rotate: 180deg; 
+}
+
+.dropdownBtn2 {
+  border-radius: 0.5em;
+  padding: 0.85em;
+  text-decoration: none;
+  color: var(--text-clr);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  justify-content: flex-start;
+  text-align: left;
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: white;
+}
+
+
+.dropdownBtn2 span {
+  white-space: normal; 
+  word-wrap: break-word;
+}

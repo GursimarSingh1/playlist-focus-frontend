@@ -1,0 +1,58 @@
+.session{
+    border: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%; /* Ensure the button takes up full width */
+    margin-bottom: 5px;
+    border-radius: 5px;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Break long words if necessary */
+
+    text-overflow: ellipsis; /* Add '...' for overflow */
+}
+
+.submenu{
+  margin-left: 20px;
+}
+
+.listItem{
+    color: white;
+    background-color: rgb(60 , 61, 68);
+  
+    padding: 5px;
+    border: 2px;
+    margin-right: 20px;
+    margin-top: 5px;
+  
+    display: flex;
+    align-items:center;
+}
+
+.dropdownBtn{
+    border-radius: .5em;
+    padding: .85em;
+    text-decoration: none;
+    color: var(--text-clr);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 1em;
+    margin:0;
+    color: white;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+  }
+
+.svg{
+  transition: 200ms ease;
+}
+
+.svgRotate{
+  rotate: 180deg;
+}
