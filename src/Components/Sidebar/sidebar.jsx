@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import Playlist from '../playlist.jsx';
 import styles from './sidebar.module.css';
-import {generateQuestions, prevVideos} from '../scripts/prompt.js'
+import {generateQuestions, prevVideos} from '../../scripts/prompt.js'
 import { QuestionMarkCircleIcon, ChevronDownIcon, ChevronDoubleLeftIcon, Bars3Icon, XCircleIcon } from '@heroicons/react/24/outline'
 
 function Sidebar({ setVideoId, videos, maxDuration, videoId, setQuestions,  questionBoxActive}) {

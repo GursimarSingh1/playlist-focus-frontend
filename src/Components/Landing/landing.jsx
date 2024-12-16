@@ -21,7 +21,7 @@ function Landing({setPlaylistId, setVideos, setMaxDuration, setVideoId}) {
     }
 
     async function loadVideos(playlistId){
-      const apiUrl = `http://localhost:5100/api/v1/youtube/videos?playlistId=${playlistId}`;
+      const apiUrl = `https://playlist-focus-app-0014fbc074a2.herokuapp.com/api/v1/youtube/videos?playlistId=${playlistId}`;
 
       try {
           const response = await fetch(apiUrl);

@@ -36,7 +36,7 @@ export function prevVideos(videos, index){
 }
 
 export async function generateQuestions(prompt) {
-  const apiUrl = `http://localhost:5100/api/v1/gemini/questions?prompt=${makePrompt(prompt)}`;
+  const apiUrl = `https://playlist-focus-app-0014fbc074a2.herokuapp.com/api/v1/gemini/questions?prompt=${makePrompt(prompt)}`;
 
   try {
       const response = await fetch(apiUrl);

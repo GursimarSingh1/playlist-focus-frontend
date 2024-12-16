@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { parseISODuration, toSeconds, toDuration } from './scripts/duration.js'
+import { parseISODuration, toSeconds, toDuration } from '../scripts/duration.js'
 import Session from './Session/session.jsx'
 
 function Playlist({videos, setVideoId, maxDuration, setQuestions}){
